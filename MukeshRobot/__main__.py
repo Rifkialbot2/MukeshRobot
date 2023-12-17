@@ -359,20 +359,20 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
-            "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
+        query.message.edit_caption(f"*ʜᴀʏ,*🥀\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
+            "\n*ᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ➕ ᴍᴜsɪᴋ ᴍᴇɴᴇᴊᴇᴍᴇɴ ᴍᴇᴍʙᴀɴɢᴜɴ ᴅᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ ᴛᴀᴍʙᴀʜ ʙᴏᴛ ᴛᴏᴊɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ.*"
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➻ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ."
-            "\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
-            "\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            f"\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}.",
+            "\n\n➲  sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀʏᴀsɪ ᴘᴇɴɢɢᴜɴᴀ."
+            "\n➲  ɪ ᴍᴇᴍᴘᴜɴʏᴀɪ ғɪᴛᴜʀ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ʏᴀɴɢ ᴄᴀɴɢɢɪʜ."
+            "\n➲ sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴʏᴀᴘᴀ ᴘᴇɴɢɢᴜɴᴀ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ᴅᴀʟᴀᴍ ɢʀᴜᴘ, ᴅᴀᴘᴀᴛ ᴅɪ sᴇsᴜᴀɪ ᴋᴀɴ ʙᴀʜᴋᴀɴ ᴍᴇᴍʙᴇʀɪ ᴀᴛᴜʀᴀɴ."
+            "\n➲  sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴘᴇʀɪɴɢᴀᴛɪ ᴘᴇɴɢɢᴜɴᴀ, ʜɪɴɢɢᴀ ᴀɴᴅᴀ ᴍᴇɴᴄᴀᴘᴀɪ ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴍᴀᴋsɪᴍᴀʟ ᴅᴇɴɢᴀɴ ᴛɪɴᴅᴀᴋᴀɴ ʏᴀɴɢ sᴜᴅᴀʜ ᴅɪᴛᴇɴᴛᴜᴋᴀɴ sᴇᴘᴇʀᴛɪ, ᴡᴀʀɴ/ᴍᴜᴛᴇ/ʙᴀɴ/ᴋɪᴄᴋ"
+            "\n➲  sᴀʏᴀ ᴍᴇᴍɪʟɪᴋɪ sɪsᴛᴇᴍ ʙʟᴀᴄᴋʟɪsᴛ, ᴅᴀɴ ʙᴀʟᴀsᴀɴ ʏᴀɴɢ ᴀɴᴅᴀ ᴛᴇɴᴛᴜᴋᴀɴ."
+            f"\n\n➻ ᴋʟɪᴋ ʙᴀɴᴛᴜᴀɴ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ʙᴀɴᴛᴜᴀɴ ᴅᴀsᴀʀ ᴅᴀɴ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -380,7 +380,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
+        InlineKeyboardButton(text="👥", url=f"t.me/={SUPPORT_CHAT}"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -397,8 +397,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="🥀sᴏᴜʀᴄᴇ",
-                            callback_data="source_",
+                            text="🥀ʜᴇʟᴘ",
+                            callback_data="Main_help",
                         ),
                     ],
                     [
@@ -408,15 +408,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ**"
-            f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+        query.message.edit_caption("**๏ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴛᴏᴊɪ ʀᴏʙᴏᴛ**"
+            f"\n\nᴊɪᴋᴀ ᴋᴀᴍᴜ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴀᴛᴀᴜ ᴋᴀᴍᴜ ɪɴɢɪɴ ᴍᴇᴍʙᴇʀɪᴋᴀɴ sᴀʀᴀɴ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}, ᴛᴏʟᴏɴʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴏᴡɴᴇʀ ᴀᴛᴀᴜ sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
+        InlineKeyboardButton(text="👥", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -425,15 +425,12 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x6D\x75\x6B\x65\x73\x68\x62\x6F\x74\x7A\x6F\x6E\x65"
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"https://t.me/wibuhouse"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
-                        ),
-                        InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹", url="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x6E\x6F\x6F\x62\x2D\x6D\x75\x6B\x65\x73\x68"
                         ),
                     ],
                     [
