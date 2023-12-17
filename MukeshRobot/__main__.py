@@ -79,7 +79,7 @@ PM_START_TEXT = """
 *๏ sᴀʏᴀ {} ᴅɪsɪɴɪ ɪɴɢɪɴ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ
 ━━━━━━━━━━━━
 sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀɢᴇ ʙᴇʀᴛᴇᴍᴀ ᴀɴɪᴍᴇ*
-➻ *ᴍᴇɴʏᴇᴅɪᴀᴋᴀɴ ʙᴏᴛ ᴍᴜsɪᴋ, ʙɪsᴀ ᴅɪ ᴘᴜᴛᴀʀ ᴅɪ ᴅᴀʟᴀᴍ ɢʀᴜᴏ ᴀɴᴅᴀ, ᴅᴀɴ ғɪᴛᴜʀ ʟᴀɪɴ ɴʏᴀ, ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴅᴀɴ ғɪᴛᴜʀ.*
+➻ *ᴍᴇɴʏᴇᴅɪᴀᴋᴀɴ ʙᴏᴛ ᴍᴜsɪᴋ, ʙɪsᴀ ᴅɪ ᴘᴜᴛᴀʀ ᴅɪ ᴅᴀʟᴀᴍ ɢʀᴜᴘ ᴀɴᴅᴀ, ᴅᴀɴ ғɪᴛᴜʀ ʟᴀɪɴ ɴʏᴀ, ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴅᴀɴ ғɪᴛᴜʀ.*
 ─────────────────
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
@@ -90,7 +90,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="👥", url=f"tg://user?id={SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="👥", url=f"t.me/={SUPPORT_CHAT}"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
