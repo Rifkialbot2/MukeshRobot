@@ -360,7 +360,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*ʜᴀʏ,*🥀\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
-            "\n*ᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ➕ ᴍᴜsɪᴋ ᴍᴇɴᴇᴊᴇᴍᴇɴ ᴍᴇᴍʙᴀɴɢᴜɴ ᴅᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ ᴛᴀᴍʙᴀʜ ʙᴏᴛ ᴛᴏᴊɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ.*"
+            "\n*ᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ➕ ᴍᴜsɪᴋ ᴍᴇɴᴇᴊᴇᴍᴇɴ ᴍᴇᴍʙᴀɴɢᴜɴ ᴅᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ ᴛᴀᴍʙᴀʜ ʙᴏᴛ ᴋᴏʙᴏ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴍᴜ.*"
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
