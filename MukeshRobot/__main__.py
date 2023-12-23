@@ -378,14 +378,10 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="👥", callback_data="mukesh_support"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(
                             text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
-                        ),
-                        InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs 📚", callback_data="Main_help"
                         ),
                     ],
                     [
@@ -393,7 +389,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="🥀ʜᴇʟᴘ",
+                            text="📚ᴄᴏᴍᴍᴀɴᴅ",
                             callback_data="Main_help",
                         ),
                     ],
@@ -405,7 +401,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "mukesh_support":
         query.message.edit_caption("**๏ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴋᴏʙᴏ ʀᴏʙᴏᴛ**"
-            f"\n\nᴊɪᴋᴀ ᴋᴀᴍᴜ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴀᴛᴀᴜ ᴋᴀᴍᴜ ɪɴɢɪɴ ᴍᴇᴍʙᴇʀɪᴋᴀɴ sᴀʀᴀɴ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}, ᴛᴏʟᴏɴʜ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴏᴡɴᴇʀ ᴀᴛᴀᴜ sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ.",
+            f"\n\nᴊɪᴋᴀ ᴋᴀᴍᴜ ᴍᴇɴᴇᴍᴜᴋᴀɴ ʙᴜɢ ᴅɪ {dispatcher.bot.first_name} ᴀᴛᴀᴜ ᴋᴀᴍᴜ ɪɴɢɪɴ ᴍᴇᴍʙᴇʀɪᴋᴀɴ sᴀʀᴀɴ ᴛᴇɴᴛᴀɴɢ {dispatcher.bot.first_name}, ᴛᴏʟᴏɴɢ ʟᴀᴘᴏʀᴋᴀɴ ᴋᴇᴘᴀᴅᴀ ᴏᴡɴᴇʀ ᴀᴛᴀᴜ sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
