@@ -204,7 +204,9 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             
-            
+            x=update.effective_message.reply_sticker(
+                "CAACAgUAAxkBAAIRUmWHIcdw32Rddnf_DJqLrmaJk7eaAAKmCgACrdM5VDAfxLxW6AW4MwQ")
+            x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
