@@ -383,13 +383,17 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
                         ),
+
+InlineKeyboardButton(
+                            text="💌ᴄᴏᴍᴍᴀɴᴅ", callback_data="mukesh_support"
+                        ),
                     ],
                     [
                         InlineKeyboardButton(
                             text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="📚ᴄᴏᴍᴍᴀɴᴅ",
+                            text="📚ʜᴇʟᴘ",
                             callback_data="Main_help",
                         ),
                     ],
