@@ -36,7 +36,7 @@ async def get_api_response(model_id, api_params, api_url):
         return f"Kesalahan: Terjadi kesalahan saat memanggil {model_id} API. {e}"
 
 
-async def palm_chatbot(update: update, context: ContextTypes.DEFAULT_TYPE):
+async def palm_chatbot(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
     if not args:
         await context.bot.send_message(
