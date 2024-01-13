@@ -3,15 +3,14 @@
 # PROVIDED BY: https://github.com/Team-ProjectCodeX
 
 # <============================================== IMPORTS =========================================================>
-import base64
+import asyncio
 
-from telegram import Update
-from telegram.constants import ParseMode
-from telegram.ext import CommandHandler, ContextTypes
+from telethon import events
+from telethon.errors import UserNotParticipantError
+from telethon.tl.functions.channels import GetParticipantRequest
+from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 
-from Mikobot import LOGGER as logger
-from Mikobot import function
-from Mikobot.state import state
+from MukeshRobot import telethn as client
 
 # <=======================================================================================================>
 
